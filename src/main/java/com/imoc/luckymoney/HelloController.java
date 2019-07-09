@@ -20,7 +20,7 @@ public class HelloController {
 //        return "说明："+limitConfig.getDescription();
 //			用于测试sourceTree软件提交
 //			用来测试提交  git命令行测试
-//      测试一波
+//      测试一波  快捷键提交
       return "id:"+id;
     }
 
