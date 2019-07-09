@@ -1,5 +1,7 @@
 package com.imoc.luckymoney;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,6 +13,7 @@ import java.math.BigDecimal;
  * @Descreiption
  */
 @Entity
+//@Component
 public class Luckmoney {
 
     @Id

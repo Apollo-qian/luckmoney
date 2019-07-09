@@ -11,7 +11,7 @@ limit:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.100.38.57:3306/blog
+    url: jdbc:mysql://47.100.38.57:3306/blog?useSSL=false
     username: root
     password: Leiyiming417.
   jpa:
